@@ -1,6 +1,6 @@
 ###  Configuração
 Para iniciar é necessário ter o [Node.js](https://nodejs.org/en/) instalado.  
-Site do editor TypeScript [online](http://www.typescriptlang.org/play/index.html)
+Site do editor TypeScript [Playground](http://www.typescriptlang.org/play/index.html)
 
 Instalando TypeScript  
 
@@ -8,8 +8,12 @@ Instalando TypeScript
 
 Mais informações sobre a instalação do TypeScript [aqui](https://github.com/Microsoft/TypeScript).
 
-### Compilando e Executando 
-Após o comando `tsc` é gerado um arquivo `.js`. Para executar o `arquivo.js` se utiliza o `node`.  
+### Criando, Compilando e Executando arquivo 
+Os arquivos do tipo TypeScript tem a extensão `.ts`. Para criar um arquivo
+
+      $ touch arquivo.ts
+
+Para compilar se utiliza o comando `tsc`, que gera um arquivo na extensão `.js`. O comando `node` executar o `arquivo.js`.  
 
     $ tsc arquivo.ts 
     $ node arquivo.js
