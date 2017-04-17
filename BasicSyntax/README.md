@@ -21,7 +21,7 @@ Para compilar múltiplos arquivos
 ### Identificadores
 - Podem conter caracteres e dígitos, mas não podem iniciar om dígito  
     - variavelUm , variavel1  
-- Não podem incluir símbolos especiais, exceto  underscore (_) e dollar ($)  
+- Não podem incluir símbolos especiais, exceto  underscore ( _ ) e dollar ($)  
     - variavel_um, $variavel  
 - São case-sensitive 
 
