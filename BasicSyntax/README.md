@@ -4,7 +4,11 @@ Site do editor TypeScript [Playground](http://www.typescriptlang.org/play/index.
 
 Instalando TypeScript  
 
-    $ npm install -g typescript
+    $ npm install -g typescript  
+
+Verifique se o TypeScript foi instalado corretamente
+
+    $ tsc -v 
 
 Mais informações sobre a instalação do TypeScript [aqui](https://github.com/Microsoft/TypeScript).
 
