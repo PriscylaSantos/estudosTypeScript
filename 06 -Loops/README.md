@@ -1,6 +1,7 @@
 ### Estruturas de repetição
 
 #### while
+[Exemplo](while.ts)
 ```typescript
 while(condition)
 {
@@ -9,6 +10,7 @@ while(condition)
 ```
 
 #### for
+[Exemplo](for.ts)
 ```typescript
 for((initial_count_value; termination-condition; step)
 {
@@ -17,6 +19,7 @@ for((initial_count_value; termination-condition; step)
 ```
 
 #### for...in
+[Exemplo](forIn.ts)
 ```typescript
 for (var val in list)
 {
@@ -25,6 +28,7 @@ for (var val in list)
 ```
 
 #### do...while
+[Exemplo](doWhile.ts)
 ```typescript
 do 
 {
@@ -34,6 +38,7 @@ do
 ```
 
 #### break
+[Exemplo](break.ts)
 ```typescript
 while(condition)
 {
@@ -49,6 +54,7 @@ while(condition)
 ```
 
 #### continue
+[Exemplo](continue.ts)
 ```typescript
 for((initial_count_value; termination-condition; step)
 {
@@ -64,6 +70,7 @@ for((initial_count_value; termination-condition; step)
 ```
 
 #### loop infinito
+[Exemplo](infiniteLoop.ts)
 ```typescript
 for(;;)
 {
