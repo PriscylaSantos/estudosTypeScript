@@ -21,18 +21,24 @@
 #### Operadores lógicos
 - And = `&&` : [(A > C && B > D)](and.ts)  
 - OR = `||` :  [(A > B || B > C)](or.ts)  
-- NOT = `!` : [!(A > D)](not.ts)  
-
-#### Lógica Binária 
-
+- NOT = `!` : [!(A > D)](not.ts)
 
 #### Operadores de atribuição 
+- [` = ` , ` += ` , ` -= ` , ` *= ` , ` /= `](assignment.ts).  
+```typescript
+a = b + c
+a += b   //é equivalente  a = a + b
+a -= b   // é equivalente a = a - b
+a *= b   // é equivalente a = a * b
+a /= b   // é equivalente a = a / b
+```
+#### Outros operadores
 
+1. Operador de Negação (-): [Modifica o sinal do valor](negacao.ts).
 
-#### Operador ternário/condicional 
+2. Operador de String (+): [Concatenação](string.ts).
 
-
-#### Operador de String 
-
+3. Operador condicional(ternário): Representa uma condição condicional de forma simplificada [`Test ? expr1 : expr2 `](conditional.ts).
 
 #### Operadores de tipo 
+ - `typeof` : [Retorna o tipo da variável](typeof.ts)
