@@ -11,7 +11,7 @@ Roteiro de estudos:
 1. [Variable Declarations](https://github.com/PriscylaSantos/estudosTypeScript/tree/master/03%20-%20VariableDeclarations)
 1. [Operators](https://github.com/PriscylaSantos/estudosTypeScript/tree/master/04%20-%20Operators)
 1. [Decision Making](https://github.com/PriscylaSantos/estudosTypeScript/tree/master/05%20-%20DecisionMaking)
-1. [Loops](https://github.com/PriscylaSantos/estudosTypeScript/tree/master/06%20-Loops)
+1. [Loops](06%20-Loops)
 1. [Functions]()
 1. [Numbers]()
 1. [Strings]()
