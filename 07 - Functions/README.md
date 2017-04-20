@@ -1,55 +1,78 @@
 ### Funções
 
 #### Declarando uma função
+[funcao.ts](funcao.ts)  
+
+*Syntax*
 ```typescript
-function function_name()
+function name()
 {
-    //código
-}
-```
-#### Chamando uma função
-```typescript
-function_name()
-```
-#### Funções de retorno
-```typescript
-function function_name(): return_type
-{
-    //código
-    return value;
-}
-```
-#### Parâmetros
-```typescript
-function function_name(param1: type , param2: type) 
-{
-    //código
+    /* code */
 }
 ```
 
-***O parâmetro opcional deve ser definido como o último argumento em uma função.***
+#### Chamando uma função
+*Syntax*
 ```typescript
-function function_name(param1: type , param2: type, param3?: type) 
+name()
+```
+
+#### Funções de retorno
+[funcaoRetorno.ts](funcaoRetorno.ts)
+
+*Syntax*
+```typescript
+function name(): return_type
 {
-    //código
+    //code
+    return value;
+}
+```
+
+#### Parâmetros
+[parametros.ts](parametros.ts)  
+
+*Syntax*
+```typescript
+function name(param1: type , param2: type) 
+{
+    //code
+}
+```
+
+#### Parâmetro opcional 
+[parametroOpcional.ts](parametroOpcional.ts)  
+Deve ser definido como o último argumento em uma função.  
+
+*Syntax*
+```typescript
+function name(param1: type , param2: type, param3?: type) 
+{
+    //code
 }
 ```
 
 ##### Parâmetros Rest  
-Não restringir o número de valores que você pode passar para uma função.No entanto, os valores passados devem todos ser do mesmo tipo.
+[parametroRest.ts](parametroRest.ts)  
+Não restringir o número de valores que você pode passar para uma função.No entanto, os valores passados devem todos ser do mesmo tipo.  
+
+*Syntax*
 ```typescript
-function function_name(...param: type[]) 
+function name(...param: type[]) 
 {
-    //código
+    //code
 }
 ```
 
 ##### Parâmetro Default  
-Não restringir o número de valores que você pode passar para uma função.No entanto, os valores passados devem todos ser do mesmo tipo.
+[parametroDefaut.ts](parametroDefaut.ts)  
+Não restringir o número de valores que você pode passar para uma função.No entanto, os valores passados devem todos ser do mesmo tipo.  
+
+*Syntax*
 ```typescript
-function function_name(param1: type, param2: type, param1: type = default_value) 
+function name(param1: type, param2: type, param1: type = default_value) 
 {
-    //código
+    //code
 }
 ```
 

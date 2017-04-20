@@ -1,7 +1,9 @@
 ### Estruturas de repetição
 
 #### while
-[Exemplo](while.ts)
+[while.ts](while.ts)  
+
+*Syntax*
 ```typescript
 while(condition)
 {
@@ -10,7 +12,9 @@ while(condition)
 ```
 
 #### for
-[Exemplo](for.ts)
+[for.ts](for.ts)  
+
+*Syntax*
 ```typescript
 for((initial_count_value; termination-condition; step)
 {
@@ -19,7 +23,9 @@ for((initial_count_value; termination-condition; step)
 ```
 
 #### for...in
-[Exemplo](forIn.ts)
+[forIn.ts](forIn.ts)  
+
+*Syntax*
 ```typescript
 for (var val in list)
 {
@@ -28,7 +34,9 @@ for (var val in list)
 ```
 
 #### do...while
-[Exemplo](doWhile.ts)
+[doWhile.ts](doWhile.ts)  
+
+*Syntax*
 ```typescript
 do 
 {
@@ -38,7 +46,9 @@ do
 ```
 
 #### break
-[Exemplo](break.ts)
+[break.ts](break.ts) 
+
+*Syntax*
 ```typescript
 while(condition)
 {
@@ -54,7 +64,9 @@ while(condition)
 ```
 
 #### continue
-[Exemplo](continue.ts)
+[continue.ts](continue.ts) 
+
+*Syntax*
 ```typescript
 for((initial_count_value; termination-condition; step)
 {
@@ -70,7 +82,9 @@ for((initial_count_value; termination-condition; step)
 ```
 
 #### loop infinito
-[Exemplo](infiniteLoop.ts)
+[infiniteLoop.ts](infiniteLoop.ts)  
+
+*Syntax*
 ```typescript
 for(;;)
 {

@@ -2,7 +2,9 @@
 ### Estruturas de decisão
 
 #### if
-[Exemplo](if.ts)
+[if.ts](if.ts)  
+
+*Syntax*
 ```typescript
 if(boolean_expression)
 {
@@ -11,7 +13,9 @@ if(boolean_expression)
 ```
 
 #### if...else
-[Exemplo](ifElse.ts)
+[ifElse.ts](ifElse.ts)   
+
+*Syntax*
 ```typescript
 if(boolean_expression)
 {
@@ -23,7 +27,9 @@ else
 }
 ```
 #### else...if
-[Exemplo](elseIf.ts)
+[elseIf.ts](elseIf.ts)  
+
+*Syntax*
 ```typescript
 if(boolean_expressionA)
 {
@@ -40,7 +46,9 @@ else
 ```
 
 #### switch...case
-[Exemplo](switchCase.ts)
+[switchCase.ts](switchCase.ts)  
+
+*Syntax*
 ```typescript
 switch(variable_expression)
 {
