@@ -16,7 +16,7 @@ Mais informações sobre a instalação do TypeScript [aqui](https://github.com/
 Os arquivos do tipo TypeScript tem a extensão `.ts`. Para criar um arquivo
 
       $ touch arquivo.ts
-
+#### Compilando e Executando com `tsc` e `node`
 Para compilar se utiliza o comando `tsc`, que gera um arquivo na extensão `.js`. O comando `node` executar o `arquivo.js`.  
 
     $ tsc arquivo.ts 
@@ -24,8 +24,18 @@ Para compilar se utiliza o comando `tsc`, que gera um arquivo na extensão `.js`
 
 Para compilar múltiplos arquivos      
 
-    $ tsc arquivo1.ts, arquivo2.ts, arquivo3.ts
+    $ tsc arquivo1.ts, arquivo2.ts, arquivo3.ts  
+#### Compilando e Executando com `ts-node`
+Para mais informações do `ts-node` [aqui](https://github.com/TypeStrong/ts-node)  
 
+Instalando o `ts-node`
+
+    $ npm install -g ts-node  
+
+Para compilar e executar o arquivo
+
+    $ ts-node arquivo.ts  
+      
 ### Identificadores
 - Podem conter caracteres e dígitos, mas não podem iniciar om dígito  
     - variavelUm , variavel1  

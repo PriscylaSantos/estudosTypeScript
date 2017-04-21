@@ -12,7 +12,7 @@ Roteiro de estudos:
 1. [Operators](04%20-%20Operators)
 1. [Decision Making](05%20-%20DecisionMaking)
 1. [Loops](06%20-Loops)
-1. Functions
+1. [Functions](07%20-%20Functions)
 1. Numbers
 1. Strings
 1. Arrays

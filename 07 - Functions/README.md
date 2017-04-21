@@ -76,3 +76,15 @@ function name(param1: type, param2: type, param1: type = default_value)
 }
 ```
 
+##### Função Anônima  
+[funcaoAnonima.ts](parametroDefaut.ts)  
+As funções que não estão vinculadas a um identificador (nome da função) são chamadas como anônimas funções. Pdem aceitar entradas e retornar saídas, assim como funções padrão.  
+
+*Syntax*
+```typescript
+var nome = function(param: type)
+{ 
+    //code
+}
+```
+
