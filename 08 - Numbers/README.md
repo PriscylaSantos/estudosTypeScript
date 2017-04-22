@@ -30,10 +30,16 @@ var name = new Number(value)
 *Syntax*
 ```typescript
 var number = new Number()
+
 number.toExponential()
+
 number.toFixed()
+
 number.toLocaleString()
+
 number.toPrecision()
+
 number.toString()
+
 number.valueOf()
 ```
