@@ -15,8 +15,8 @@ var name = new String(string)
 * `objeto.prototype.novapropriedade` = atribui novas propriedades e métodos ao objeto String
 
 #### Métodos de String
-[charAt.ts](charAt.ts) 
-[charCodeAt.ts](charCodeAt.ts)
+[charAt.ts](charAt.ts)   
+[charCodeAt.ts](charCodeAt.ts)  
 [concat.ts](concat.ts)
 
 * `charAt(index)` =  retorna o caractere do índice especificado.  
