@@ -43,5 +43,7 @@ interface B { ... }
 interface C extends A { ... }
 interface D extends B,C { ... }
 
+let chamaInterface = <C>{};
+
 ```
 
