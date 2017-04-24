@@ -77,6 +77,21 @@ class Name
 }
 
 ```
+Os  **getters** e **setters** são usados para acesso a atributos protegidos da classe. Cada atributo `private`, deve ter um método `get` e um método `set` para alterar os valores desse atributo.  
+
+[getSet.ts](getSet.ts)
+
+*Syntax*
+```typescript
+class Nome {
+    private _atributo: tipo;
+
+    get atributo(): string { ... }
+    
+    set password(atributo : tipo) { ... }
+}
+
+```
 
 Uma **variável estática** mantém seus valores até que o programa termine a execução, pois são visíveis na classe e não nas instâncias.  
 
@@ -90,4 +105,28 @@ class Name
     ...
 }
 
+```
+
+As **classes abstratas** são classes de base a partir das quais outras classes podem ser derivadas. A palavra `abstract` é usada para definir classes abstratas, bem como métodos abstratos dentro de uma classe abstrata.  
+Ao contrário de uma interface, uma classe abstrata pode conter detalhes de implementação.
+
+[classeAbstrada.ts](classeAbstrada.ts)  
+
+*Syntax*
+```typescript
+abstract class Nome {
+
+     abstract nameFuncao(): return_type    
+}
+```
+
+Os métodos criados em uma interface podem ser implementados na classe, usando de `implements`.
+
+[implements.ts](implements.ts)  
+
+*Syntax*
+```typescript
+interface A { ...}
+
+class B implements A { ... }
 ```
