@@ -18,8 +18,8 @@ Roteiro de estudos:
 1. Arrays
 1. Tuples
 1. Union
-1. Interfaces
-1. Classes
+1. [Interfaces](13%20-%20Interfaces)
+1. [Classes](14%20-%20Classes)
 1. Objects
 1. Namespaces
 1. Modules
